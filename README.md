@@ -19,3 +19,4 @@ $ git clone https://github.com/admereselvyn/Android.git
 7. After the work is complete push your branch & link it to your issue.
 8. The code will be checked by other members and will be merged in master branch.
 "# profile" 
+"# profile" 
