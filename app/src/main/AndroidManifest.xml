@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.admereselvyn.mic">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.Mic">
+        <activity android:name=".HomeScreen"/>
+        <activity android:name=".HomeScreen_Register_now">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeScreen_Submit"/>
+        <activity android:name=".HomeScreen_SubmitFile"/>
+        <activity android:name=".HomeScreen_UploadFile"/>
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+
+            //paste here
+
+
+        </activity>
+        <activity
+            android:name=".Registration"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OnBoardingScreen5"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.Mic" />
+        <activity
+            android:name=".OnBoardingScreen4"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.Mic" />
+        <activity
+            android:name=".OnBoardingScreen3"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.Mic" />
+        <activity
+            android:name=".OnBoardingScreen2"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.Mic" />
+        <activity
+            android:name=".OnBoardingScreen1"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.Mic" />
+        <activity
+            android:name=".OnBoardingScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Base.Theme.Mic" />
+    </application>
+
+</manifest>
